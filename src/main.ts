@@ -9,8 +9,8 @@ import About from "./components/About.vue";
 const pinia = createPinia();
 
 const routes = [
-  { path: "/", component: Home },
-  { path: "/about", component: About },
+  { path: "/balancesheet/", component: Home },
+  { path: "/balancesheet/about", component: About },
 ];
 
 const router = createRouter({
